@@ -1,0 +1,96 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my tv",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "VolumeUp",
+                    "slots": [
+                        {
+                            "name": "level",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "volume up by {level}",
+                        "volume up",
+                        "increase volume",
+                        "increase volume by {level}",
+                        "make louder",
+                        "make louder by {level}"
+                    ]
+                },
+                {
+                    "name": "VolumeDown",
+                    "slots": [
+                        {
+                            "name": "level",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "volume down",
+                        "volume down by {level}",
+                        "make quiter",
+                        "make quiter by {level}",
+                        "decrease volume",
+                        "decrease volume by {level}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Mute",
+                    "slots": [],
+                    "samples": [
+                        "mute",
+                        "disable sound"
+                    ]
+                },
+                {
+                    "name": "SetVolume",
+                    "slots": [
+                        {
+                            "name": "level",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "set volume to {level}"
+                    ]
+                },
+                {
+                    "name": "Power",
+                    "slots": [],
+                    "samples": [
+                        "turn on",
+                        "turn off"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
